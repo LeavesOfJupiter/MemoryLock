@@ -1,0 +1,1 @@
+// this gives the player three hints per page. 
