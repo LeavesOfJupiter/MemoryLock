@@ -3,10 +3,12 @@
     background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    cursor: url("images/eyeconclose.png"), default;
   }
 
   a:link {
     color: rgb(0, 0, 0);
+    cursor: url("images/eyecon.png"), default;
 
 
   }
