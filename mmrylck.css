@@ -1,12 +1,12 @@
 
   body {
-    background-color: var(--bg);
-    color: var(--font);
+    background-color: black;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
   }
 
   a:link {
-    color: crimson;
+    color: rgb(0, 0, 0);
 
 
   }
@@ -16,27 +16,39 @@
     color: gold;
   }
 
-  :root {
-
-    --bg: #ffffff;
-    --font: #000000;
-  }
-
-body.dark {
-
-    --bg: #000000;
-    --font: #ffffff;
-
-}
-
 img{ 
 
     width: 20rem;
 
 }
 
+audio {
+  display: block;
+  margin: 0 auto;
+  transform: scale(0.5);
+}
+
 .hidden {
     display: none;
   }
   
+  h1 {
+    text-align: center;
+  }
+
+.card:hover {
+    background-image: url('images/birthday/confetti1.gif');
+} 
+.card2:hover{
+  background-image: url('images/birthday/confetti2.gif');
+}
+
+.fadein {
+    animation: fadeinbg 2s;
+}
+
+@keyframes fadeinbg {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
 
